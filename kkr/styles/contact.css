@@ -1,0 +1,113 @@
+#contact {
+  margin-bottom: 50px;
+  color: #393939;
+}
+
+
+/* form */
+
+.contact {
+  margin-bottom: 20px;
+}
+
+#contact .contactForm {
+  border: 1px solid #a0a0a0;
+  border-top: none;
+  padding: 30px;
+}
+
+#contact .contactTitle {
+  text-transform: uppercase;
+  border: 1px solid #a0a0a0;
+  border-bottom: none;
+  font-size: 12px;
+  background: linear-gradient(to top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 0%, rgba(209,209,209,1) 0%, rgba(254,254,254,1) 100%);
+  padding: 20px;
+ 
+}
+
+.contactForm h3 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.contactForm p {
+  font-size: 12px;
+  line-height: 20px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #a0a0a0;
+  margin-bottom: 30px;
+}
+
+form label {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+form input {
+  margin-bottom: 15px;
+  width: 200px;
+  height: 25px;
+  border: 1px solid #a0a0a0;
+  background-color: #dedede;
+}
+
+form textarea {
+  margin-bottom: 15px;
+  border: 1px solid #a0a0a0;
+  background-color: #dedede;
+}
+
+form input[type=submit] {
+  display: block;
+  width: 65px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #ccc;
+  background-color: #5b5b5b;
+}
+
+/* office */
+
+.office {
+  border: 1px solid #a0a0a0;
+}
+
+.office h2 {
+  text-transform: uppercase;
+  border-bottom: 1px solid #a0a0a0;
+  border-bottom: none;
+  font-size: 12px;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 0%, rgba(209,209,209,1) 0%, rgba(254,254,254,1) 100%);
+}
+
+.office span {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  border-bottom: 1px solid #a0a0a0;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 0%, rgb(228, 228, 228) 0%, rgba(254,254,254,1) 100%);
+}
+
+.office span:last-child {
+  border-bottom: none;
+}
+
+@media screen and (min-width: 945px) {
+  #contact, .flex {
+    align-items: flex-start;
+  }
+
+  .contact {
+    margin-bottom: 0;
+    width: 66%;
+  }
+  .office {
+    width: 28%;
+  }
+}
